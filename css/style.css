@@ -1,0 +1,66 @@
+
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gradient{
+    background: rgb(14,49,9);
+background: linear-gradient(90deg, rgba(14,49,9,1) 41%, rgba(23,69,8,1) 55%, rgba(36,98,12,1) 65%, rgba(69,176,22,1) 82%, rgba(69,233,74,1) 90%);
+}
+
+.page-header{
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.feature{
+    color: white;
+}
+
+.feature ul{
+    list-style: none;
+    padding-left: 2rem;
+}
+
+.feature ul li{
+    padding-left: 2rem;
+    background-image: url(../img/check2.svg);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.icon{
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.7rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.gallery{
+    background-color: whitesmoke;
+}
+
+.gallery img{
+    border-radius: 5%;
+}
+
+.services{
+    color : #fff;
+}
+
+footer{
+    color: #fff;
+    font-size: 1rem;
+    margin: 0;
+    padding: 1rem;
+}
